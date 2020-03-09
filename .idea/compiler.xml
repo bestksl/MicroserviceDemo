@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MicroserviceDemo" />
+        <module name="user-thrift-service-api" />
+        <module name="user-thrift-service" />
+        <module name="message-thrift-service-api" />
       </profile>
     </annotationProcessing>
   </component>
